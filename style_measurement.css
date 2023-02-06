@@ -1,0 +1,118 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background: #fff;
+}
+.navbar-brand img{
+    display: block;
+    height: 40px;
+}
+.navbar {
+    background: #fff;
+    box-shadow: 0 2px 2px -2px gray;
+}
+.nav-link,
+.navbar-brand {
+    color: #000;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+ul li a{
+  color: #000;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Montserrat", "San-serif";
+}
+ul li a.active{
+    color: rgb(125, 125, 240);
+    font-weight: 700;
+}
+.nav-link:hover {
+    text-decoration:underline;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.icon img{
+    height: 30px;
+    width: auto;
+}
+.page-header {
+    background-image: url('images/background.jpg');
+    background-position: center;
+    position: relative;
+    height: 250px;
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+.description h1 {
+	color: #fff;
+    font-family: "Montserrat", "San-serif";
+}
+h2{
+    color: #1784D0;
+}
+form{
+    padding: 30px;
+    border: #1784D0 3px solid;
+    border-radius: 25px;
+    background-color: #F0F4F4;
+}
+form .btn {
+    background-color: #2F89DB;
+    border: 1px solid #2F89DB;
+    color: #fff;
+    margin-top: 20px;
+    width: 25%;
+}
+form .btn:hover {
+    background-color: #4CA9FA;
+    border: 1px solid #4CA9FA;
+}
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
+/*------------------mobile-----------------------*/
+@media (max-width: 300px) {
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+ 
+    .description h1 {
+        font-size: 1.8em;
+    }
+ 
+    .description p {
+        font-size: 1.2rem;
+    }
+ 
+    .features {
+        margin: 0;
+    }
+}

@@ -1,0 +1,173 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background: #fff;
+}
+
+/*-----Nav Bar----*/
+.navbar-brand img{
+    display: block;
+    height: 40px;
+}
+.navbar {
+    background: #fff;
+    box-shadow: 0 2px 2px -2px gray;
+}
+.nav-link,
+.navbar-brand {
+    color: #000;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+ul li a{
+  color: #000;
+  font-weight: 500;
+  font-size: 14px;
+}
+ul li a.active{
+    color: rgb(125, 125, 240);
+    font-weight: 700;
+}
+.nav-link:hover {
+    text-decoration:underline;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.icon img{
+    height: 30px;
+    width: auto;
+}
+/*-----------------*/
+
+/*--------Decorations--------*/
+.features {
+	margin: 2em auto;
+	padding: 1em;
+	position: relative;
+}
+
+.vl1{
+    border-left: 6px solid #6FADE2;/*---------short vertical line--------*/
+    height: 50px;
+  }
+li, p, h3, h1,h2{
+    font-family: "Montserrat", "San-serif";
+  }
+/*--------------------------*/
+
+/*---------Header---------*/
+.page-header {
+    background-image: url('images/background.jpg');
+    background-position: center;
+    position: relative;
+    height: 250px;
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+.description h1 {
+	color: #fff;
+}
+/*-------------------*/
+
+/*--------About us--------*/
+.background{
+    background-image: linear-gradient(to right, #6db5f4, #95caf9);
+    padding:4em 0;
+}
+
+.intro-title{
+    color: #333;
+	font-size: 3.6rem;
+	font-weight: 800;
+	margin-bottom: 20px;
+    margin-top: 20px;
+	text-transform: uppercase;
+    font-family: "Merriweather Sans", "San-serif";
+}
+.intro-second-title{
+    color: #333;
+	font-size: 2.0rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+/*----------About us second part-----------*/
+.feature-title {
+	color: #333;
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+    text-align: center;
+}
+.feature-paragraph, .feature-paragraph li{
+    font-size:0.9rem;
+    line-height: 1.6em;
+    font-weight: 300;
+}
+.material-symbols-outlined{
+  margin-bottom: 16px;
+}
+/*------------------------------------------*/
+
+/*---------------Milestone----------------*/
+.milestone_title{
+    padding-left: 3px;
+}
+.milestone_secondtitle{
+    padding-top: 30px;
+}
+/*----------------------------------------*/
+
+/*---------------footer------------------*/
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
+/*-------------------------------------*/
+
+/*------------------mobile-----------------------*/
+@media (max-width: 300px) {
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+ 
+    .description h1 {
+        font-size: 2em;
+    }
+ 
+    .description p {
+        font-size: 1.2rem;
+    }
+ 
+    .features {
+        margin: 0;
+    }
+}
