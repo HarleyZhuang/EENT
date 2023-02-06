@@ -1,7 +1,8 @@
 html, body {
     padding: 0;
     margin: 0;
-    background: #333333;
+    background: #333333;	
+    overflow-x: hidden;
 }
 /*-----Nav Bar----*/
 .navbar-brand img{
