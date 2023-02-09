@@ -7,7 +7,7 @@ html, body {
 /*-----------Nav Bar-----------*/
 .navbar-brand img{
     display: block;
-    height: 40px;
+    height: 50px;
 }
 .navbar {
     background: #fff;
@@ -109,6 +109,9 @@ h1, h2, p, li{
 .card .card-img-bottom{
     height: auto;
     width: 20px;
+}
+hr.new1{
+    border-width: 2px;
 }
 /*---------------------------*/
 

@@ -2,12 +2,11 @@ html, body {
     padding: 0;
     margin: 0;
     background: #333333;
-    overflow-x: hidden;
 }
 /*-----Nav Bar----*/
 .navbar-brand img{
     display: block;
-    height: 40px;
+    height: 50px;
 }
 .navbar {
     background: #fff;
@@ -80,8 +79,8 @@ header{
   font-weight: 600;
 }
 .description button {
-    border:1px solid #e6e674;
-    background:#e6e674;
+    border:1px solid #616103;
+    background:#e0d90bb1;
     border-radius: 0;
     color:#000;
 }
@@ -151,7 +150,7 @@ text-transform: uppercase;
   color: #fff;
 }
 .background1{
-  background-image: linear-gradient(to right, #0B76D3, #88BFF0);
+  background-image: linear-gradient(to right, #0a6bc0, #6a99c2);
   padding-top: 30px;
   padding-bottom: 30px;
 }
